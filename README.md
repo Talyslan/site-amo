@@ -1,8 +1,11 @@
-# React + Vite
+# Site AMO - Alagoas no Mapa da OBI
+Este repositório tem a função de salvar, organizar e ser útil para a construção e desenvolvimento do site destinado ao projeto AMO (Alagoas no Mapa da OBI), projeto destinado a educação de programação a seus interessados.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h3 align="center">:exclamation: Projeto em andamento :exclamation:</h3>
 
-Currently, two official plugins are available:
+## Contato
+Deseja entrar em contato para alguma dica ou interesse no projeto, aqui está nosso email:
+<a href="mailto:projetoamoifal@gmail.com">projetoamoifal@gmail.com :email:</a>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Qualquer dica para a melhoria do nosso projeto será bem vinda!
+Ass, Talys.
