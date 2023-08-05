@@ -7,22 +7,27 @@ export function App() {
   return (
     <div>
       <section>
-        <header>
-          <nav>
-            <a href="#">
-              <img src={Logo} alt="Logo da AMO" />
-            </a>
-            <div className='navegation-bar'>
-              <ul>
-                <li><a href="#">O projeto</a></li>
-                <li><a href="#">Inscreva-se</a></li>
-                <li><a href="#">Equipe</a></li>
-                <li><a href="#">Contato</a></li>
-              </ul>
-              <a href="#">Login</a>
-            </div>
-          </nav>
-        </header>
+        <div className="container">
+          <header>
+            <nav>
+              <a href="#">
+                <img src={Logo} alt="Logo da AMO" />
+              </a>
+              <div className='navegation-bar'>
+                <ul>
+                  <li><a href="#">O projeto</a></li>
+                  <li><a href="#">Inscreva-se</a></li>
+                  <li><a href="#">Equipe</a></li>
+                  <li><a href="#">Contato</a></li>
+                </ul>
+                <div className="login-register">
+                  <a href="#">Entrar</a>
+                  <a href="#">Criar Conta</a>
+                </div>
+              </div>
+            </nav>
+          </header>
+        </div>
 
         <main>
           <h1>

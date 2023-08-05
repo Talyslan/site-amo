@@ -6,26 +6,51 @@ body {
     justify-content: center;
     background: #000338;
     font-family: 'Poppins', sans-serif;
-    color: rgb(206, 206, 206);
-    width: 100vw;
+    color: rgb(233, 233, 233);
+    /* overflow-x: hidden; */
 }
 
+/* Scroll */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #030525; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #d4c6c6; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
 
 /* Nav */
 header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    margin: 0px auto;
+    position: static;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(106, 106, 128);
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 24px;
 }
 
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 10px;
+    justify-content: space-between;
+    padding-top: 5px;
     width: 100%;
-    max-width: 1440px;
 }
 
 /* Logo (nav) */
@@ -52,29 +77,50 @@ nav ul {
 nav ul a {
     font-size: 1em;
     font-weight: 400;
+    padding: 30px 0;
+    color: rgb(179, 179, 179);
     transition: 0.2s ease;
 }
 
 nav ul a:hover {
-    color: rgb(245, 243, 243);
+    color: rgb(233, 233, 233);
+    border-bottom: 2px solid rgb(177, 177, 240);
 }
 
 /* Login (nav) */
-nav .navegation-bar > a:last-child {
-    text-align: center;
-    font-size: 1.1em;
-    font-weight: 700;
-    border-radius: 3px;
-    padding: 0.2rem 0.6rem;
-    background: #ac2c27;
-    box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.25);
-    transition: 0.3s ease;
+nav .navegation-bar .login-register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
-nav .navegation-bar > a:hover:last-child {
-    transform: scale(1.01);
-    background: #ce342f;
-    box-shadow: 7px 7px 0 1px rgb(44, 5, 5);
+nav .navegation-bar .login-register > a:first-child {
+    text-align: center;
+    border-radius: 3px;
+    padding: 0.2rem 0.6rem;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+}
+
+nav .navegation-bar .login-register > a:hover:first-child {
+    color: rgb(238, 238, 238);
+}
+
+nav .navegation-bar .login-register > a:last-child {
+    border: 2px solid #f2f2f256;
+    text-align: center;
+    border-radius: 3px;
+    padding: 0.2rem 0.6rem;
+    font-weight: 700;
+    box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.3s ease-in-out;
+}
+
+nav .navegation-bar .login-register > a:hover:last-child {
+    color: rgb(238, 238, 238);
+    border: 2px solid #ac2c2760;
+    background: #ac2c27;
 }
 
 /* Main */
