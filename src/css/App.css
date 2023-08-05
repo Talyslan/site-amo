@@ -4,7 +4,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0;
     background: #000338;
     font-family: 'Poppins', sans-serif;
     color: rgb(206, 206, 206);
@@ -92,3 +91,8 @@ main {
 .right-side img {
     width: 700px;
 } */
+
+section {
+    height: 100vh;
+    flex-direction: column;
+}
