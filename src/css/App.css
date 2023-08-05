@@ -4,7 +4,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #000338;
     font-family: 'Poppins', sans-serif;
     color: rgb(233, 233, 233);
     /* overflow-x: hidden; */
@@ -32,17 +31,13 @@ body {
 
 /* Nav */
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: #000338;
     margin: 0px auto;
     position: static;
-    display: flex;
-    justify-content: center;
     border-bottom: 1px solid rgb(106, 106, 128);
     max-width: 1440px;
     width: 100%;
-    padding: 0 24px;
+    padding: 0 32px;
 }
 
 nav {
@@ -60,7 +55,7 @@ nav a img {
 }
 
 /* Links navegação (nav) */
-nav .navegation-bar {
+nav {
     display: flex;
     align-items: center;
     gap: 4em;
@@ -88,14 +83,21 @@ nav ul a:hover {
 }
 
 /* Login (nav) */
-nav .navegation-bar .login-register {
+nav .login-register {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
 
-nav .navegation-bar .login-register > a:first-child {
+nav .login-register a > img {
+    width: 20px;
+    filter: gray;
+}
+
+nav .login-register > a:first-child {
+    display: flex;
+    align-items: center;
     text-align: center;
     border-radius: 3px;
     padding: 0.2rem 0.6rem;
@@ -103,11 +105,12 @@ nav .navegation-bar .login-register > a:first-child {
     transition: 0.3s ease-in-out;
 }
 
-nav .navegation-bar .login-register > a:hover:first-child {
+nav .login-register > a:hover:first-child {
     color: rgb(238, 238, 238);
+    transform: translateY(-2px);
 }
 
-nav .navegation-bar .login-register > a:last-child {
+nav .login-register > a:last-child {
     border: 2px solid #f2f2f256;
     text-align: center;
     border-radius: 3px;
@@ -117,7 +120,7 @@ nav .navegation-bar .login-register > a:last-child {
     transition: 0.3s ease-in-out;
 }
 
-nav .navegation-bar .login-register > a:hover:last-child {
+nav .login-register > a:hover:last-child {
     color: rgb(238, 238, 238);
     border: 2px solid #ac2c2760;
     background: #ac2c27;
@@ -126,19 +129,65 @@ nav .navegation-bar .login-register > a:hover:last-child {
 /* Main */
 main {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.right-side {
-    text-align: center;
-}
-/* 
-.right-side img {
-    width: 700px;
-} */
-
+/* Seções do main */
 section {
     height: 100vh;
-    flex-direction: column;
+    width: 100%;
+    color: black;
+}
+
+/* Primeira seção */
+.first {
+    background: #000338;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+    gap: 100px;
+}
+
+.first h1 {
+    font-size: 3em;
+}
+
+.first > div {
+    text-align: center;
+}
+
+/* Segunda seção */
+.second {
+
+}
+
+/* Terceira seção */
+.third {
+    
+}
+
+/* Quarta seção */
+.fourth {
+    
+}
+
+/* Quinta seção */
+.fifth {
+    background-image: linear-gradient(#283666, #455DAF);
+}
+
+/* Sexta seção */
+.sixth {
+    background-image: linear-gradient(#455DAF, #456CFA, #F1F5F9 60%);
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background: #000338;
+    color: black;
 }
