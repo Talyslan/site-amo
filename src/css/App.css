@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background: #000338;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(206, 206, 206);
+    width: 100vw;
+}
+
+
+/* Nav */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 100%;
+    max-width: 1440px;
+}
+
+/* Logo (nav) */
+nav a img {
+    width: 4rem;
+    margin: 0.5rem;
+}
+
+/* Links navegação (nav) */
+nav .navegation-bar {
+    display: flex;
+    align-items: center;
+    gap: 4em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    gap: 30px;
+}
+
+nav ul a {
+    font-size: 1em;
+    font-weight: 400;
+    transition: 0.2s ease;
+}
+
+nav ul a:hover {
+    color: rgb(245, 243, 243);
+}
+
+/* Login (nav) */
+nav .navegation-bar > a:last-child {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 700;
+    border-radius: 3px;
+    padding: 0.2rem 0.6rem;
+    background: #ac2c27;
+    box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.3s ease;
+}
+
+nav .navegation-bar > a:hover:last-child {
+    transform: scale(1.01);
+    background: #ce342f;
+    box-shadow: 7px 7px 0 1px rgb(44, 5, 5);
+}
+
+/* Main */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-side {
+    text-align: center;
+}
+/* 
+.right-side img {
+    width: 700px;
+} */
