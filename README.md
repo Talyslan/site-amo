@@ -22,7 +22,7 @@
 <p>Instale as dependências:</p>
 
 <pre>
-    <code>
+    <code style='font-size: 1em;'>
         $ npm i
         $ npm run dev
     </code>
