@@ -21,7 +21,9 @@
 ## Para rodar
 <p>Instale as dependências:</p>
 
-<code>
-    $ npm i
-    $ npm run dev
-</code>
+<pre>
+    <code>
+        $ npm i
+        $ npm run dev
+    </code>
+</pre>
