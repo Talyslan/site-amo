@@ -136,15 +136,24 @@ main {
 
 /* Seções do main */
 section {
+    width: 100vw;
     height: 100vh;
     width: 100%;
     color: black;
+}
+
+.content {
+    max-width: 1440px;
+    padding: 0 100px;
 }
 
 /* Primeira seção */
 .first {
     background: #000338;
     color: white;
+}
+
+.first .content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,17 +161,31 @@ section {
     gap: 100px;
 }
 
-.first h1 {
+.first .content > h1 {
     font-size: 3em;
 }
 
-.first > div {
+.first .content > div {
     text-align: center;
 }
 
 /* Segunda seção */
 .second {
+    text-align: center;
+}
 
+.second .content > h2 {
+    font-size: 2em;
+    padding: 1.5em 3em;
+}
+
+.second .content .divider {
+    display: flex;
+    align-items: center;
+}
+
+.second .content .divider > img {
+    width: 300px;
 }
 
 /* Terceira seção */
