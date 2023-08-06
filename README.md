@@ -9,3 +9,11 @@ Deseja entrar em contato para alguma dica ou interesse no projeto, aqui está no
 
 Qualquer dica para a melhoria do nosso projeto será bem vinda!
 Ass, Talys.
+
+## Para rodar
+Instale as dependências: 
+<pre>
+    <code>
+        $ npm i
+    </code>
+</pre>
