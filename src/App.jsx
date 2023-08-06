@@ -1,14 +1,23 @@
+// CSS
 import './css/Reset.css';
 import './css/App.css';
+// Imagens
 import Logo from './images/Logo.png';
 import Amo from './images/amo.png';
 import IconLogin from './images/loginicon.png';
 import Computador from './images/computador.png';
 import Equipe from './images/foto1.png';
-import Facebook from './images/Midias/facebook.svg';
-import Instagram from './images/Midias/instagram.svg';
-import Linkedin from './images/Midias/linkedin.svg';
-import Twitter from './images/Midias/Twitter.svg';
+//Redes Sociais
+import Facebook from './images/midias/facebook.svg';
+import Instagram from './images/midias/instagram.svg';
+import Linkedin from './images/midias/linkedin.svg';
+import Twitter from './images/midias/Twitter.svg';
+// Logo dos Patrocinadores
+import CPSoftware from './images/patrocinadores/cpsoftware.png';
+import FapealSecti from './images/patrocinadores/fapealsecti.png';
+import Fapeal from './images/patrocinadores/fapeal.png';
+import Ifal from './images/patrocinadores/ifal.png';
+import PibicJr from './images/patrocinadores/pibicjr.png';
 
 export function App() {
   return (
@@ -90,7 +99,7 @@ export function App() {
                 </div>
                 <div className="box-text">
                   <h4>Atividade Externa</h4>
-                  <p className=''>
+                  <p>
                     O nosso treinamento externo é inclusivo e aberto ao público externo do Instituto Federal de Alagoas (IFAL) - Campus Maceió, com o objetivo de disseminar conhecimento e incentivar a participação de outras escolas (públicas e privadas) na OBI.
                   </p>
                 </div>
@@ -100,7 +109,7 @@ export function App() {
 
         <section className='fourth'>
             <h2>Sobre as olimpíadas de informática</h2>
-            <p className='text'>
+            <p className='mod'>
               Lorem ipsum dolor sit amet. Et quisquam iusto aut provident numquam id magnam asperiores in enim placeat vel ipsa illum. Et animi sint eos voluptatem labore ab facilis laudantium aut molestiae earum. Sed quia adipisci id voluptatum optio eos beatae amet vel nemo ullam est quos consequatur cum dignissimos galisum cum similique itaque! Sit perspiciatis asperiores sit cumque possimus qui nulla obcaecati sed aspernatur quisquam sed alias unde est voluptatem ullam. In commodi nostrum qui quae reprehenderit ut deserunt vitae!
             </p>
             <div className="know-more">
@@ -201,11 +210,11 @@ export function App() {
         <div className="parceiros">
           <h2>Parceiros</h2>
           <div className="logos">
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <img src={CPSoftware} alt="Logo da CPSoftware" />
+            <img src={FapealSecti} alt="Logo da Fapeal Secti" />
+            <img src={Ifal} alt="Logo do IFAL" />
+            <img src={Fapeal} alt="Logo da Fapeal" />
+            <img src={PibicJr} alt="Logo da Pibic JR" />
           </div>
         </div>
 

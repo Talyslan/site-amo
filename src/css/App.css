@@ -263,7 +263,36 @@ p {
 
 /* Quarta seção */
 .fourth {
-    background: rgb(230, 149, 57);
+    background: #F1F5F9;
+}
+
+.fourth .know-more {
+    background: #000338;
+    color:#F1F5F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 700px;
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.fourth .know-more span {
+    font-size: 1.1em;
+}
+
+.fourth .know-more a {
+    background: #456CFA;
+    width: 300px;
+    padding: 10px;
+    border-radius: 35px;
+    transition: 0.2s ease-in-out;
+}
+
+.fourth .know-more a:hover {
+    background: #2a4abd;
 }
 
 /* Quinta seção */
