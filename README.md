@@ -12,8 +12,6 @@ Ass, Talys.
 
 ## Para rodar
 Instale as dependências: 
-<pre>
-    <code>
-        $ npm i
-    </code>
-</pre>
+<code>
+    $ npm i
+</code>
