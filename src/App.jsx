@@ -16,7 +16,7 @@ export function App() {
       <header>
         <nav>
           {/* Imagem da logo */}
-          <a href="#">
+          <a href="../index.html">
             <img src={Logo} alt="Logo da AMO" />
           </a>
           {/* Links do próprio site */}
@@ -60,7 +60,8 @@ export function App() {
             <div className='divider'>
               <img src={Computador} alt="Imagem ilustrativa de um computador" />
               <div className='text'>
-                <h2>Bem-vindos ao projeto "AMO" Alagoas no Mapa da OBI!</h2>
+                <h3>Bem-vindos ao projeto "AMO" Alagoas no Mapa da OBI!</h3>
+                
                 <p>
                   Bem-vindo ao nosso site do projeto AMO (Alagoas no Mapa da OBI)!
                 </p>

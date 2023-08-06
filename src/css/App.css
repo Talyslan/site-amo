@@ -6,6 +6,7 @@ body {
     justify-content: center;
     font-family: 'Poppins', sans-serif;
     color: rgb(233, 233, 233);
+    background: #000338;
     /* overflow-x: hidden; */
 }
 
@@ -131,32 +132,43 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
-/* Seções do main */
+/* Seções do main (CONFIG) */
 section {
-    width: 100vw;
     height: 100vh;
     width: 100%;
     color: black;
 }
 
 .content {
-    max-width: 1440px;
-    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* max-width: 1440px; */
+    /* padding: 0 100px; */
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
+.fourth,
+.sixth {
+    display: flex;
+    justify-content: center;
 }
 
 /* Primeira seção */
 .first {
     background: #000338;
     color: white;
+    align-items: center;
 }
 
 .first .content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
     padding-bottom: 150px;
     gap: 100px;
 }
@@ -171,7 +183,12 @@ section {
 
 /* Segunda seção */
 .second {
+    background: #F1F5F9;
     text-align: center;
+}
+
+.second .content {
+    justify-content: start;
 }
 
 .second .content > h2 {
@@ -182,20 +199,36 @@ section {
 .second .content .divider {
     display: flex;
     align-items: center;
+    gap: 100px;
 }
 
 .second .content .divider > img {
     width: 300px;
 }
 
+.second .content .divider .text {
+    text-align: justify;
+    width: 500px;
+}
+
+.second .content .divider .text > h3 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.second .content .divider .text > p {
+    margin: 20px 0;
+}
+
 /* Terceira seção */
 .third {
-    
+    background: #a79c09;
 }
 
 /* Quarta seção */
 .fourth {
-    
+    background: rgb(230, 149, 57);
 }
 
 /* Quinta seção */
