@@ -1,5 +1,5 @@
 // CSS
-import './css/Reset.css';
+import './css/global.css';
 import './css/App.css';
 // Imagens
 import Logo from './images/Logo.png';

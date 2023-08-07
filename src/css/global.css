@@ -1,0 +1,60 @@
+:root {
+    --back-blue: #000338;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+div#root {
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(233, 233, 233);
+    background: var(--back-blue);
+    /* overflow-x: hidden; */
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, button, textarea {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+}
+
+/* Scroll */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #030525; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #d4c6c6; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
