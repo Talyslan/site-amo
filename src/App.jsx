@@ -19,6 +19,7 @@ import Fapeal from './images/patrocinadores/fapeal.png';
 import Ifal from './images/patrocinadores/ifal.png';
 import PibicJr from './images/patrocinadores/pibicjr.png';
 
+
 export function App() {
   return (
     <div>
