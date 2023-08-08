@@ -267,6 +267,14 @@ p {
     padding-bottom: 100px;
 }
 
+.fifth h2 {
+    padding-bottom: 10px;
+}
+
+.fifth small {
+    margin: 50px 0;
+}
+
 .fifth .box-baloons .content {
     display: flex;
     flex-direction: column;
@@ -283,9 +291,11 @@ p {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 15px;
     row-gap: 60px;
+    /* color: black; */
 }
 
 .fifth .box-baloons .baloons {
+    /* background: #fff; */
     background: #000338;
     display: flex;
     flex-direction: column;
@@ -300,6 +310,10 @@ p {
     padding: 10px;
     border-radius: 35px;
     transition: 0.2s ease-in-out;
+}
+
+.fifth .box-baloons .baloons > a:hover {
+    background: #2a4abd;
 }
 
 /* Sexta seção */
