@@ -322,6 +322,27 @@ p {
     height: auto;
 }
 
+.sixth h2 {
+    color: white;
+    padding: 40px;
+    font-size: 2em;
+}
+
+.sixth .divider {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 90%;
+    padding-bottom: 100px;
+}
+
+.sixth .divider > img {
+    width: 600px;
+    background: #000338;
+    padding: 20px;
+    border-radius: 30px;
+}
+
 /* Footer */
 footer {
     background: #000338;
