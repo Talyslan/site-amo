@@ -11,7 +11,7 @@ import Equipe from './images/foto1.png';
 import Facebook from './images/Midias/facebook.svg';
 import Instagram from './images/Midias/instagram.svg';
 import Linkedin from './images/Midias/linkedin.svg';
-import Twitter from './images/Midias/Twitter.svg';
+import Twitter from './images/Midias/twitter.svg';
 // Logo dos Patrocinadores
 import CPSoftware from './images/patrocinadores/cpsoftware.png';
 import FapealSecti from './images/patrocinadores/fapealsecti.png';
