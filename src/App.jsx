@@ -8,17 +8,16 @@ import IconLogin from './images/loginicon.png';
 import Computador from './images/computador.png';
 import Equipe from './images/foto1.png';
 //Redes Sociais
-import Facebook from './images/midias/facebook.svg';
-import Instagram from './images/midias/instagram.svg';
-import Linkedin from './images/midias/linkedin.svg';
-import Twitter from './images/midias/Twitter.svg';
+import Facebook from './images/Midias/facebook.svg';
+import Instagram from './images/Midias/instagram.svg';
+import Linkedin from './images/Midias/linkedin.svg';
+import Twitter from './images/Midias/Twitter.svg';
 // Logo dos Patrocinadores
 import CPSoftware from './images/patrocinadores/cpsoftware.png';
 import FapealSecti from './images/patrocinadores/fapealsecti.png';
 import Fapeal from './images/patrocinadores/fapeal.png';
 import Ifal from './images/patrocinadores/ifal.png';
 import PibicJr from './images/patrocinadores/pibicjr.png';
-
 
 export function App() {
   return (
