@@ -262,6 +262,44 @@ p {
 /* Quinta seção */
 .fifth {
     background-image: linear-gradient(#283666, #455DAF);
+    color: white;
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.fifth .box-baloons .content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+}
+
+.fifth .box-baloons .content ul {
+    list-style-type: disc;
+}
+
+.fifth .box-baloons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+    row-gap: 60px;
+}
+
+.fifth .box-baloons .baloons {
+    background: #000338;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.fifth .box-baloons .baloons > a {
+    background: #456CFA;
+    width: 250px;
+    padding: 10px;
+    border-radius: 35px;
+    transition: 0.2s ease-in-out;
 }
 
 /* Sexta seção */

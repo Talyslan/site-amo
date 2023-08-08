@@ -126,72 +126,100 @@ export function App() {
             <div className="box-baloons">
               <div className="baloons">
                 <h3>TÍTULO PARA EXEMPLO</h3>
-                <p>Conteúdos:</p>
-                <ul>
-                  <li>Conteúdo 1</li>
-                  <li>Conteúdo 2</li>
-                  <li>Conteúdo 3</li>
-                </ul>
+
+                <div className="content">
+                  <p>Conteúdos:</p>
+                  <ul>
+                    <li>Conteúdo 1</li>
+                    <li>Conteúdo 2</li>
+                    <li>Conteúdo 3</li>
+                  </ul> 
+                </div>
+
+                <p>Observações, exemplo</p>
+                <a href="#">Inscrever-se</a>
+              </div>
+
+              <div className="baloons">
+                <h3>TÍTULO PARA EXEMPLO</h3>
+
+                <div className="content">
+                  <p>Conteúdos:</p>
+                  <ul>
+                    <li>Conteúdo 1</li>
+                    <li>Conteúdo 2</li>
+                    <li>Conteúdo 3</li>
+                  </ul>
+                </div>
+
+                <p>Observações, exemplo</p>
+                <a href="#">Inscrever-se</a>
+              </div>
+
+              <div className="baloons">
+                <h3>TÍTULO PARA EXEMPLO</h3>
+
+                <div className="content">
+                  <p>Conteúdos:</p>
+                  <ul>
+                    <li>Conteúdo 1</li>
+                    <li>Conteúdo 2</li>
+                    <li>Conteúdo 3</li>
+                  </ul>
+                </div>
+
+                <p>Observações, exemplo</p>
+                <a href="#">Inscrever-se</a>
+              </div>
+
+              <div className="baloons">
+                <h3>TÍTULO PARA EXEMPLO</h3>
+
+                <div className="content">
+                  <p>Conteúdos:</p>
+                  <ul>
+                    <li>Conteúdo 1</li>
+                    <li>Conteúdo 2</li>
+                    <li>Conteúdo 3</li>
+                  </ul>
+                </div>
+
                 <p>Observações, exemplo</p>
                 <a href="#">Inscrever-se</a>
               </div>
               <div className="baloons">
                 <h3>TÍTULO PARA EXEMPLO</h3>
-                <p>Conteúdos:</p>
-                <ul>
-                  <li>Conteúdo 1</li>
-                  <li>Conteúdo 2</li>
-                  <li>Conteúdo 3</li>
-                </ul>
+
+                <div className="content">
+                  <p>Conteúdos:</p>
+                  <ul>
+                    <li>Conteúdo 1</li>
+                    <li>Conteúdo 2</li>
+                    <li>Conteúdo 3</li>
+                  </ul>
+                </div>
+
                 <p>Observações, exemplo</p>
                 <a href="#">Inscrever-se</a>
               </div>
+
               <div className="baloons">
                 <h3>TÍTULO PARA EXEMPLO</h3>
-                <p>Conteúdos:</p>
-                <ul>
-                  <li>Conteúdo 1</li>
-                  <li>Conteúdo 2</li>
-                  <li>Conteúdo 3</li>
-                </ul>
-                <p>Observações, exemplo</p>
-                <a href="#">Inscrever-se</a>
-              </div>
-              <div className="baloons">
-                <h3>TÍTULO PARA EXEMPLO</h3>
-                <p>Conteúdos:</p>
-                <ul>
-                  <li>Conteúdo 1</li>
-                  <li>Conteúdo 2</li>
-                  <li>Conteúdo 3</li>
-                </ul>
-                <p>Observações, exemplo</p>
-                <a href="#">Inscrever-se</a>
-              </div>
-              <div className="baloons">
-                <h3>TÍTULO PARA EXEMPLO</h3>
-                <p>Conteúdos:</p>
-                <ul>
-                  <li>Conteúdo 1</li>
-                  <li>Conteúdo 2</li>
-                  <li>Conteúdo 3</li>
-                </ul>
-                <p>Observações, exemplo</p>
-                <a href="#">Inscrever-se</a>
-              </div>
-              <div className="baloons">
-                <h3>TÍTULO PARA EXEMPLO</h3>
-                <p>Conteúdos:</p>
-                <ul>
-                  <li>Conteúdo 1</li>
-                  <li>Conteúdo 2</li>
-                  <li>Conteúdo 3</li>
-                </ul>
+
+                <div className="content">
+                  <p>Conteúdos:</p>
+                  <ul>
+                    <li>Conteúdo 1</li>
+                    <li>Conteúdo 2</li>
+                    <li>Conteúdo 3</li>
+                  </ul>
+                </div>
+
                 <p>Observações, exemplo</p>
                 <a href="#">Inscrever-se</a>
               </div>
             </div>
-          
+
         </section>
 
         <section className='sixth'>
