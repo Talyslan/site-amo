@@ -345,6 +345,44 @@ p {
 
 /* Footer */
 footer {
-    background: #000338;
+    background: #F1F5F9;
     color: black;
+}
+
+.parceiros .logos,
+.contacte-nos .informations {
+    background: #000338;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.parceiros .logos > img {
+    width: 80px;
+}
+
+.contacte-nos .informations {
+    flex-direction: column; 
+    gap: 30px;
+}
+
+.parceiros .box-text,
+.contacte-nos .box-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.contacte-nos .informations .midias a img {
+    filter: invert(0.8);
+    transform: scale(1.5em);
+    transition: 0.3s ease-in-out;
+}
+
+.contacte-nos .informations .midias a img:hover {
+    filter: invert(1);
 }

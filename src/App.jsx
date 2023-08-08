@@ -236,7 +236,9 @@ export function App() {
 
       <footer>
         <div className="parceiros">
-          <h2>Parceiros</h2>
+          <div className="box-text">
+            <h2>Parceiros</h2>
+          </div>
           <div className="logos">
             <img src={CPSoftware} alt="Logo da CPSoftware" />
             <img src={FapealSecti} alt="Logo da Fapeal Secti" />
@@ -247,26 +249,30 @@ export function App() {
         </div>
 
         <div className="contacte-nos">
-          <h2>Contacte-nos</h2> 
-          <p>
-            Para mais informações entre em contato com a gente e nos siga nas redes sociais.
-          </p>
-
-          <div className="midias">
-            <a href="">
-              <img src={Facebook} alt="Logo do Facebook" />
-            </a>
-            <a href="">
-              <img src={Twitter} alt="Logo do Twitter" />
-            </a>
-            <a href="">
-              <img src={Linkedin} alt="Logo do Linkedin" />
-            </a>
-            <a href="">
-              <img src={Instagram} alt="Logo do Instagram" />
-            </a>
+          <div className="box-text">
+            <h2>Contacte-nos</h2>
+          </div>
+          <div className="informations">
+            <p>
+              Para mais informações entre em contato com a gente e nos siga nas redes sociais.
+            </p>
+            <div className="midias">
+              <a href="">
+                <img src={Facebook} alt="Logo do Facebook" />
+              </a>
+              <a href="">
+                <img src={Twitter} alt="Logo do Twitter" />
+              </a>
+              <a href="">
+                <img src={Linkedin} alt="Logo do Linkedin" />
+              </a>
+              <a href="">
+                <img src={Instagram} alt="Logo do Instagram" />
+              </a>
+            </div>
           </div>
         </div>
+
       </footer>
     </div>
   )
