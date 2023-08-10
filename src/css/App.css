@@ -1,18 +1,3 @@
-/* Main */
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-/* Seções do main (CONFIG) */
-section {
-    height: 100vh;
-    width: 100%;
-    color: black;
-}
-
 .first,
 .second,
 .third,
@@ -25,10 +10,6 @@ section {
     align-items: center;
     justify-content: start;
     text-align: center;
-}
-
-p {
-    text-align: justify;
 }
 
 .mod {

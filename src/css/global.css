@@ -42,6 +42,25 @@ button {
     border: none;
 }
 
+p {
+    text-align: justify;
+}
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Seções do main (CONFIG) */
+section {
+    height: 100vh;
+    width: 100%;
+    color: black;
+}
+
 /* Scroll */
 ::-webkit-scrollbar {
     width: 10px;
