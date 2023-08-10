@@ -1,10 +1,13 @@
 :root {
     --back-blue: #000338;
+    --blue-200: #456CFA;
+    --white: #F1F5F9;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
 div#root {
@@ -15,14 +18,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(233, 233, 233);
+    color: var(--white);
     background: var(--back-blue);
-    /* overflow-x: hidden; */
     -webkit-font-smoothing: antialiased;
 }
 
 body, input, button, textarea {
     font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
 }
 
 a {
