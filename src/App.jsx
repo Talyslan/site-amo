@@ -2,49 +2,16 @@
 import './css/global.css';
 import './css/App.css';
 // Imagens
-import Logo from './images/Logo.png';
+import { Header } from './partsOfPage/header/Header.jsx';
 import Amo from './images/amo.png';
-import IconLogin from './images/loginicon.png';
 import Computador from './images/computador.png';
 import Equipe from './images/foto1.png';
-//Redes Sociais
-import Facebook from './images/Midias/facebook.svg';
-import Instagram from './images/Midias/instagram.svg';
-import Linkedin from './images/Midias/linkedin.svg';
-import Twitter from './images/Midias/twitter.svg';
-// Logo dos Patrocinadores
-import CPSoftware from './images/patrocinadores/cpsoftware.png';
-import FapealSecti from './images/patrocinadores/fapealsecti.png';
-import Fapeal from './images/patrocinadores/fapeal.png';
-import Ifal from './images/patrocinadores/ifal.png';
-import PibicJr from './images/patrocinadores/pibicjr.png';
+import { Footer } from './partsOfPage/footer/Footer.jsx';
 
 export function App() {
   return (
     <>
-      <header>
-        <nav>
-          {/* Imagem da logo */}
-          <a href="../index.html">
-            <img src={Logo} alt="Logo da AMO" />
-          </a>
-          {/* Links do próprio site */}
-          <ul>
-            <li><a href="#">O projeto</a></li>
-            <li><a href="#">Inscreva-se</a></li>
-            <li><a href="#">Equipe</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-          {/* Links para a página de Login e Registro */}
-          <div className="login-register">
-              <a href="#">
-                <img src={IconLogin} alt="Icone de Login" />
-                Entrar
-              </a>
-              <a href="#">Criar Conta</a>
-          </div>
-        </nav>
-      </header>
+      <Header />
       
       <main>
         <section className='first'>
@@ -234,46 +201,7 @@ export function App() {
         </section>
       </main>
 
-      <footer>
-        <div className="parceiros">
-          <div className="box-text">
-            <h2>Parceiros</h2>
-          </div>
-          <div className="logos">
-            <img src={CPSoftware} alt="Logo da CPSoftware" />
-            <img src={FapealSecti} alt="Logo da Fapeal Secti" />
-            <img src={Ifal} alt="Logo do IFAL" />
-            <img src={Fapeal} alt="Logo da Fapeal" />
-            <img src={PibicJr} alt="Logo da Pibic JR" />
-          </div>
-        </div>
-
-        <div className="contacte-nos">
-          <div className="box-text">
-            <h2>Contacte-nos</h2>
-          </div>
-          <div className="informations">
-            <p>
-              Para mais informações entre em contato com a gente e nos siga nas redes sociais.
-            </p>
-            <div className="midias">
-              <a href="">
-                <img src={Facebook} alt="Logo do Facebook" />
-              </a>
-              <a href="">
-                <img src={Twitter} alt="Logo do Twitter" />
-              </a>
-              <a href="">
-                <img src={Linkedin} alt="Logo do Linkedin" />
-              </a>
-              <a href="">
-                <img src={Instagram} alt="Logo do Instagram" />
-              </a>
-            </div>
-          </div>
-        </div>
-
-      </footer>
+      <Footer />
     </>
   )
 }

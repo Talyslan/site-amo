@@ -1,0 +1,42 @@
+.footer {
+    background: var(--white);
+    color: black;
+}
+
+.parceiros .logos,
+.contacteNos .informations {
+    background: var(--back-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 20px 0;
+    color: var(--white);
+}
+
+.parceiros .logos > img {
+    width: 80px;
+}
+
+.contacteNos .informations {
+    flex-direction: column; 
+    gap: 30px;
+}
+
+.parceiros .boxText,
+.contacteNos .boxText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.contacteNos .informations .midias a img {
+    filter: invert(0.8);
+    transform: scale(1.5em);
+    transition: 0.3s ease-in-out;
+}
+
+.contacteNos .informations .midias a img:hover {
+    filter: invert(1);
+}

@@ -1,0 +1,91 @@
+/* Nav */
+.header {
+    background: var(--back-blue);
+    margin: 0px auto;
+    position: static;
+    border-bottom: 1px solid #6a6a80;
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 32px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    width: 100%;
+    gap: 4em;
+}
+
+/* Logo (nav) */
+.img {
+    width: 4rem;
+    margin: 0.5rem;
+}
+
+/* Links navegação (nav) */
+.ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    gap: 30px;
+}
+
+.ul a {
+    font-size: 1em;
+    font-weight: 400;
+    padding: 30px 0;
+    color: #b3b3b3;
+    transition: 0.2s ease;
+}
+
+.ul a:hover {
+    color: var(--white);
+    border-bottom: 2px solid #b1b1f0;
+}
+
+/* Login (nav) */
+.loginRegister {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.loginRegister a > img {
+    width: 20px;
+    filter: gray;
+}
+
+.loginRegister > a:first-child {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 3px;
+    padding: 0.2rem 0.6rem;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+}
+
+.loginRegister > a:hover:first-child {
+    color: var(--white);
+    transform: translateY(-2px);
+}
+
+.loginRegister > a:last-child {
+    border: 2px solid #f2f2f256;
+    text-align: center;
+    border-radius: 3px;
+    padding: 0.2rem 0.6rem;
+    font-weight: 700;
+    box-shadow: 4px 4px 3px 0px #00000040;
+    transition: 0.3s ease-in-out;
+}
+
+.loginRegister > a:hover:last-child {
+    color: rgb(238, 238, 238);
+    border: 2px solid #ac2c2760;
+    background: #ac2c27;
+}
