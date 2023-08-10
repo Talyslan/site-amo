@@ -21,7 +21,7 @@ import PibicJr from './images/patrocinadores/pibicjr.png';
 
 export function App() {
   return (
-    <div>
+    <>
       <header>
         <nav>
           {/* Imagem da logo */}
@@ -274,6 +274,6 @@ export function App() {
         </div>
 
       </footer>
-    </div>
+    </>
   )
 }
