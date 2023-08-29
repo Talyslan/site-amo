@@ -29,6 +29,10 @@
     gap: 100px;
 }
 
+.first img {
+    width: 90%;
+}
+
 .first > h1 {
     font-size: 3em;
 }
@@ -54,7 +58,7 @@
 .second .divider {
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 60px;
 }
 
 .second .divider > img {
@@ -225,4 +229,24 @@
     background: var(--back-blue);
     padding: 20px;
     border-radius: 30px;
+}
+
+/* MEDIA QUERIE */
+@media only screen and (max-width: 1140px) {
+    .first,
+    .second .divider,
+    .third .text-atividades,
+    .sixth .divider {
+        flex-direction: column;
+    }
+
+    .fifth .box-baloons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .fifth .box-baloons {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

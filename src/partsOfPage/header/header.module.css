@@ -4,9 +4,10 @@
     margin: 0px auto;
     position: static;
     border-bottom: 1px solid #6a6a80;
-    max-width: 1440px;
     width: 100%;
     padding: 0 32px;
+    display: flex;
+    justify-content: center;
 }
 
 .nav {
@@ -15,6 +16,7 @@
     justify-content: space-between;
     padding-top: 5px;
     width: 100%;
+    max-width: 1440px;
     gap: 4em;
 }
 
@@ -89,3 +91,10 @@
     border: 2px solid #ac2c2760;
     background: #ac2c27;
 }
+
+@media only screen and (max-width: 940px) {
+    .ul,
+    .loginRegister {
+        display: none;
+    }
+} 
