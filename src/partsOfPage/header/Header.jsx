@@ -15,10 +15,10 @@ export function Header() {
 
                 {/* Links do próprio site */}
                 <ul className={HeaderStyles.ul}>
-                    <li><a href="#">O projeto</a></li>
-                    <li><a href="#">Inscreva-se</a></li>
-                    <li><a href="#">Equipe</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#oprojeto">O projeto</a></li>
+                    <li><a href="#inscreva-se">Inscreva-se</a></li>
+                    <li><a href="#equipe">Equipe</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
                 
                 {/* Links para a página de Login e Registro */}

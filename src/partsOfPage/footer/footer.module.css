@@ -16,7 +16,7 @@
 }
 
 .parceiros .logos > img {
-    width: 30%;
+    width: 10%;
     max-width: 120px;
 }
 
@@ -30,7 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white;
+    background: var(--white);
     padding: 20px 0;
 }
 

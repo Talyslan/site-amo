@@ -19,26 +19,20 @@ export function App() {
       
       <main>
         <section className='first'>
-            <div>
-              <h1>
-              Inscreva-se no <br/>
-              Treinamento Interno à Programação Competetiva
-              </h1>
-              <a 
-                href="https://forms.gle/aCpZMRrJgsg1DZoi7" target="_blank">
-                <img
-                  src={Forms}
-                  alt="Formulário do Treinamento Interno"
-                  id="forms" />
-              </a>
-            </div>
+            <h1>
+              Pronto para <br />
+              arrasar na <br />
+              Olimpíada <br />
+              Brasileira de <br />
+              Informática? <br />
+            </h1>
             <div>
               <img src={Amo} alt="Logo AMO"/>
               <h2>Alagoas no Mapa da OBI</h2>
             </div>
         </section>
         
-        <section className='second'>
+        <section className='second' id="oprojeto">
             <h2>O Projeto</h2>
             <div className='divider'>
               <img src={Computador} alt="Imagem ilustrativa de um computador" />
@@ -95,11 +89,22 @@ export function App() {
           
         </section>
 
-        <section className='fifth'>
+        <section className='fifth' id="inscreva-se">
             <h2>Inscreva-se</h2>
-            <small className='text'>Para participar dos treinamentos, inscreva-se nos nossos cursos:</small>
+            <small className='text'>Para participar dos treinamentos internos responda o formulário abaixo:</small>
 
-            <div className="box-baloons">
+            <span>Clique aqui</span>
+
+            <a 
+              href="https://forms.gle/sdBgqXM6JiXtxiAg6"
+              target="_blank">
+              <img 
+                src={Forms}
+                alt="Forms para inscrição TI" 
+              />
+            </a>
+
+            {/* <div className="box-baloons">
               <div className="baloons">
                 <h3>TÍTULO PARA EXEMPLO</h3>
 
@@ -131,74 +136,11 @@ export function App() {
                 <p>Observações, exemplo</p>
                 <a href="#">Inscrever-se</a>
               </div>
-
-              <div className="baloons">
-                <h3>TÍTULO PARA EXEMPLO</h3>
-
-                <div className="content">
-                  <p>Conteúdos:</p>
-                  <ul>
-                    <li>Conteúdo 1</li>
-                    <li>Conteúdo 2</li>
-                    <li>Conteúdo 3</li>
-                  </ul>
-                </div>
-
-                <p>Observações, exemplo</p>
-                <a href="#">Inscrever-se</a>
-              </div>
-
-              <div className="baloons">
-                <h3>TÍTULO PARA EXEMPLO</h3>
-
-                <div className="content">
-                  <p>Conteúdos:</p>
-                  <ul>
-                    <li>Conteúdo 1</li>
-                    <li>Conteúdo 2</li>
-                    <li>Conteúdo 3</li>
-                  </ul>
-                </div>
-
-                <p>Observações, exemplo</p>
-                <a href="#">Inscrever-se</a>
-              </div>
-              <div className="baloons">
-                <h3>TÍTULO PARA EXEMPLO</h3>
-
-                <div className="content">
-                  <p>Conteúdos:</p>
-                  <ul>
-                    <li>Conteúdo 1</li>
-                    <li>Conteúdo 2</li>
-                    <li>Conteúdo 3</li>
-                  </ul>
-                </div>
-
-                <p>Observações, exemplo</p>
-                <a href="#">Inscrever-se</a>
-              </div>
-
-              <div className="baloons">
-                <h3>TÍTULO PARA EXEMPLO</h3>
-
-                <div className="content">
-                  <p>Conteúdos:</p>
-                  <ul>
-                    <li>Conteúdo 1</li>
-                    <li>Conteúdo 2</li>
-                    <li>Conteúdo 3</li>
-                  </ul>
-                </div>
-
-                <p>Observações, exemplo</p>
-                <a href="#">Inscrever-se</a>
-              </div>
-            </div>
+            </div> */}
 
         </section>
 
-        <section className='sixth'>
+        <section className='sixth' id="equipe">
             <h2>Equipe</h2>
             <div className="divider">
               <img src={Equipe} alt="Imagem da Equipe" />

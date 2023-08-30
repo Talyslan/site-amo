@@ -15,7 +15,7 @@ import Ifal from '../../images/patrocinadores/ifal.png';
 export function Footer() {
     return (
         <>
-        <div className={FooterStyles.parceiros}>
+        <div className={FooterStyles.parceiros} id="contato">
             <div className={FooterStyles.boxText}>
                 <h2>Parceiros</h2>
             </div>
