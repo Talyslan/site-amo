@@ -37,16 +37,16 @@ export function Footer() {
                     Para mais informações entre em contato com a gente e nos siga nas redes sociais.
                 </p>
                 <div className={FooterStyles.midias}>
-                    <a href="">
+                    <a href="https://www.facebook.com/amoifal/">
                         <img src={Facebook} alt="Logo do Facebook" />
                     </a>
-                    <a href="">
+                    <a href="https://twitter.com/amoifal">
                         <img src={Twitter} alt="Logo do Twitter" />
                     </a>
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/amoifal/">
                         <img src={Linkedin} alt="Logo do Linkedin" />
                     </a>
-                    <a href="">
+                    <a href="https://www.instagram.com/amo.ifal/">
                         <img src={Instagram} alt="Logo do Instagram" />
                     </a>
                 </div>

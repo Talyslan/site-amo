@@ -1,12 +1,16 @@
 // CSS
 import './css/global.css';
 import './css/App.css';
-// Imagens
+
+//Partes da Página
 import { Header } from './partsOfPage/header/Header.jsx';
+import { Footer } from './partsOfPage/footer/Footer.jsx';
+
+// Imagens
 import Amo from './images/amo.png';
+import Forms from './images/Forms.png';
 import Computador from './images/computador.png';
 import Equipe from './images/foto1.png';
-import { Footer } from './partsOfPage/footer/Footer.jsx';
 
 export function App() {
   return (
@@ -15,18 +19,23 @@ export function App() {
       
       <main>
         <section className='first'>
-            <h1>
-            Pronto para <br />
-            arrasar na <br />
-            Olimpíada <br />
-            Brasileira de <br />
-            Informática? <br />
-            </h1>
             <div>
-              <img src={Amo} alt="Logo AMO" />
+              <h1>
+              Inscreva-se no <br/>
+              Treinamento Interno à Programação Competetiva
+              </h1>
+              <a 
+                href="https://forms.gle/aCpZMRrJgsg1DZoi7" target="_blank">
+                <img
+                  src={Forms}
+                  alt="Formulário do Treinamento Interno"
+                  id="forms" />
+              </a>
+            </div>
+            <div>
+              <img src={Amo} alt="Logo AMO"/>
               <h2>Alagoas no Mapa da OBI</h2>
             </div>
-          
         </section>
         
         <section className='second'>
@@ -77,7 +86,7 @@ export function App() {
         <section className='fourth'>
             <h2>Sobre as olimpíadas de informática</h2>
             <p className='mod'>
-              Lorem ipsum dolor sit amet. Et quisquam iusto aut provident numquam id magnam asperiores in enim placeat vel ipsa illum. Et animi sint eos voluptatem labore ab facilis laudantium aut molestiae earum. Sed quia adipisci id voluptatum optio eos beatae amet vel nemo ullam est quos consequatur cum dignissimos galisum cum similique itaque! Sit perspiciatis asperiores sit cumque possimus qui nulla obcaecati sed aspernatur quisquam sed alias unde est voluptatem ullam. In commodi nostrum qui quae reprehenderit ut deserunt vitae!
+              As Olimpíadas de Informática são um evento de destaque, congregando jovens talentosos mundialmente para demonstrar suas habilidades em programação e algoritmos. Enfrentando desafios complexos, os participantes não apenas exibem competência técnica, mas também criatividade e raciocínio analítico, promovendo tanto a camaradagem internacional quanto o avanço da ciência da computação. Ao ultrapassar fronteiras geográficas, o evento celebra a paixão compartilhada pela computação, destacando a importância do pensamento lógico e sistemático na resolução de problemas desafiadores. Enquanto competem por reconhecimento, as Olimpíadas oferecem uma valiosa experiência de aprendizado e uma rede global de contatos, nutrindo mentes curiosas e inspirando futuros inovadores no campo da tecnologia.
             </p>
             <div className="know-more">
               <span>Conheça mais!</span>
