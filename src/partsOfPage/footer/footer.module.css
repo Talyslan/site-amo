@@ -17,6 +17,7 @@
 
 .parceiros .logos > img {
     width: 30%;
+    max-width: 120px;
 }
 
 .contacteNos .informations {
