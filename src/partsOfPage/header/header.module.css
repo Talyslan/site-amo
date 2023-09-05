@@ -1,51 +1,37 @@
 /* Nav */
 .header {
-    background: var(--back-blue);
-    margin: 0px auto;
-    position: static;
-    border-bottom: 1px solid #6a6a80;
-    width: 100%;
-    padding: 0 32px;
     display: flex;
     justify-content: center;
+    width: 100%;
+    padding: 20px 32px;
 }
 
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 5px;
-    width: 100%;
     max-width: 1440px;
-    gap: 4em;
+    width: 100%;
+}
+
+.logoBar {
+    display: flex;
+    gap: 4rem;
 }
 
 /* Logo (nav) */
-.img {
-    width: 4rem;
-    margin: 0.5rem;
-}
+
 
 /* Links navegação (nav) */
 .ul {
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 10px 0px;
-    gap: 30px;
+    justify-content: center;
+    gap: 40px;
 }
 
 .ul a {
-    font-size: 1em;
-    font-weight: 400;
-    padding: 30px 0;
-    color: #b3b3b3;
     transition: 0.2s ease;
-}
-
-.ul a:hover {
-    color: var(--white);
-    border-bottom: 2px solid #b1b1f0;
 }
 
 /* Login (nav) */
@@ -92,9 +78,9 @@
     background: #ac2c27;
 }
 
-@media only screen and (max-width: 940px) {
+/* @media only screen and (max-width: 940px) {
     .ul,
     .loginRegister {
         display: none;
     }
-} 
+}  */

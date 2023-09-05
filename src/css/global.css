@@ -1,84 +1,87 @@
 :root {
-    --back-blue: #000338;
-    --blue-200: #456CFA;
-    --white: #F1F5F9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+
+  --white: #F9F9F9;
+  --black: #0A0D16;
+  --blue: #242F55;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-div#root {
-    width: 100%;
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center; */
+}
+
+#root, body, main {
+  width: 100%;
 }
 
 body {
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--white); */
-    width: 100%;
-    background: var(--back-blue);
-    -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--black);
+  color: var(--white);
+  min-width: 320px;
+  min-height: 100vh;
 }
 
-body, input, button, textarea {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
+body, button, a, input {
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
 }
 
 a {
-    text-decoration: none;
-    color: rgb(206, 206, 206);
-    text-align: center;
+  text-decoration: inherit;
+  color: var(--white);
 }
+/* a:hover {
+  color: ;
+} */
 
 ul {
-    list-style: none;
+  list-style-type: none;
 }
 
-button {
-    border: none;
+/* button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
 }
-
-p {
-    text-align: justify;
+button:hover {
+  border-color: #646cff;
 }
-
-/* Main */
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* width: 100%; */
-}
-
-/* Seções do main (CONFIG) */
-section {
-    /* height: 100vh; */
-    width: 100%;
-    color: black;
-}
-
-/* Scroll */
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: #030525; 
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #d4c6c6; 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} */
+/* 
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
