@@ -4,12 +4,11 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 150px 0;
-  gap: 10rem;
+  padding: 150px 150px;
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 3em;
 }
 
 .hero h1 span {
@@ -17,8 +16,9 @@
 }
 
 .hero img {
-  width: 100%;
+  width: 80%;
   max-width: 450px; 
+  min-width: 220px;
 }
 
 .hero h2 {
@@ -34,7 +34,7 @@
   justify-content: center;
   background-color: var(--white);
   color: var(--black);
-  padding: 150px 0;
+  padding: 150px 150px;
 }
 
 .treinamentos .preparese {
@@ -50,8 +50,9 @@
 }
 
 .treinamentos .preparese .cima-treinamentos img {
-  width: 100%;
+  width: 70%;
   max-width: 350px; 
+  filter: drop-shadow(4px 6px 6px #eaa1aa);
 }
 
 .treinamentos .preparese .cima-treinamentos h2 {
@@ -61,6 +62,7 @@
 
 .treinamentos .preparese p {
   max-width: 1200px;
+  min-width: 300px;
   font-weight: 500;
   font-size: 24px;
   text-align: center;
@@ -77,7 +79,7 @@
   display: grid;
   place-items: center;
   row-gap: 3rem;
-  padding: 150px 0;
+  padding: 150px 0px;
 }
 
 .treinamentos .primeiropasso h2 {
@@ -86,17 +88,66 @@
 
 .treinamentos .primeiropasso p {
   max-width: 1200px;
+  min-width: 300px;
   font-weight: 500;
   font-size: 16px;
   text-align: center;
 }
 
+.treinamentos .primeiropasso > img {
+  width: 40%;
+  min-width: 120px;
+}
+
 .boxOrg {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   gap: 44px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1150px) {
+  .hero h1 {
+    font-size: 1.8em;
+  }
 
+  .hero {
+    padding: 60px 0px;
+  }
+  
+  .treinamentos .preparese .cima-treinamentos {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .treinamentos h2 {
+    font-size: 2em;
+  }
+
+  .treinamentos .preparese .cima-treinamentos h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .treinamentos .preparese p {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .boxOrg {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .boxOrg {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

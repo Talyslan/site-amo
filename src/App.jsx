@@ -18,6 +18,7 @@ export function App() {
       <Header />
 
       <main>
+        
         <section className="hero">
           <div className="left-hero">
             <h1>
