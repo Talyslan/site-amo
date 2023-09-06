@@ -15,9 +15,9 @@ export function Header() {
                     </a>
                     {/* Links do próprio site */}
                     <ul className={HeaderStyles.ul}>
-                        <li><a href="#oprojeto">Treinamento</a></li>
-                        <li><a href="#inscreva-se">Notícias</a></li>
-                        <li><a href="#equipe">O Projeto</a></li>
+                        <li><a href="#treinamentos">Treinamento</a></li>
+                        <li><a href="#noticias">Notícias</a></li>
+                        <li><a href="#projeto">O Projeto</a></li>
                     </ul>
                     
                 </div>
@@ -27,7 +27,7 @@ export function Header() {
                         <img src={IconLogin} alt="Icone de Login" />
                         Entrar
                     </a>
-                    <a href="#">Criar Conta</a>
+                    <a href="#">Cadastrar</a>
                 </div>
             </nav>
         </header>

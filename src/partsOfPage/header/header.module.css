@@ -78,9 +78,9 @@
     background: #ac2c27;
 }
 
-/* @media only screen and (max-width: 940px) {
+@media only screen and (max-width: 900px) {
     .ul,
     .loginRegister {
         display: none;
     }
-}  */
+} 

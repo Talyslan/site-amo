@@ -1,4 +1,21 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    padding: 44px;
+    border-radius: 20px;
+}
+
+.box:hover {
+    opacity: .8;
+}
+
 .box > img {
     width: 70%;
-    background-color: red;
+}
+
+.box > span {
+    color: #0A0D16;
 }

@@ -1,8 +1,11 @@
+/* PRIMEIRA SECTION */
 .hero {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
+  padding: 150px 0;
+  gap: 10rem;
 }
 
 .hero h1 {
@@ -13,12 +16,87 @@
   color: #EFE838;
 }
 
+.hero img {
+  width: 100%;
+  max-width: 450px; 
+}
+
 .hero h2 {
   font-size: 1rem;
   font-weight: normal;
 }
 
+/* SEGUNDA SECTION */
 .treinamentos {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: var(--white);
+  color: var(--black);
+  padding: 150px 0;
+}
+
+.treinamentos .preparese {
+  display: grid;
+  place-items: center;
+  row-gap: 5rem;
+}
+
+.treinamentos .preparese .cima-treinamentos {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}
+
+.treinamentos .preparese .cima-treinamentos img {
+  width: 100%;
+  max-width: 350px; 
+}
+
+.treinamentos .preparese .cima-treinamentos h2 {
+  font-size: 3em;
+  text-align: right;
+}
+
+.treinamentos .preparese p {
+  max-width: 1200px;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+}
+
+.treinamentos .preparese a {
+  background-color: var(--black);
+  padding: 12px 24px;
+  border-radius: 48px;
+  box-shadow: 3px 3px #54575f;
+}
+
+.treinamentos .primeiropasso {
+  display: grid;
+  place-items: center;
+  row-gap: 3rem;
+  padding: 150px 0;
+}
+
+.treinamentos .primeiropasso h2 {
+  font-size: 2em;
+}
+
+.treinamentos .primeiropasso p {
+  max-width: 1200px;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+
+.boxOrg {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+}
+
+@media only screen and (max-width: 900px) {
+
 }
