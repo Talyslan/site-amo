@@ -1,4 +1,4 @@
-import { Header } from './partsOfPage/header/header.jsx';
+import { Header } from './partsOfPage/header/Header.jsx';
 import { Box } from './components/box.jsx';
 import './css/App.css';
 
