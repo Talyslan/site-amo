@@ -96,7 +96,13 @@ mundo da Informática.
             </p>
           </div>
 
-          <div className="carrossel"></div>
+          <div className="carrossel">
+            <img src={n1} alt="noticia" />
+            <img src={n2} alt="noticia" />
+            <img src={n3} alt="noticia" />
+            <img src={n4} alt="noticia" />
+            <img src={n5} alt="noticia" />
+          </div>
 
           <a href="#">SAIBA MAIS!</a>
         </section>
