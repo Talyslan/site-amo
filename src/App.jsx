@@ -12,6 +12,12 @@ import materiais from '../public/elements/ilustrativos/materiais.png';
 import news from '../public/elements/ilustrativos/news.png';
 import videos from '../public/elements/ilustrativos/videos.png';
 
+import n1 from '../public/carrossel/noticia5.png';
+import n2 from '../public/carrossel/noticia4.png';
+import n3 from '../public/carrossel/noticia3.png';
+import n4 from '../public/carrossel/noticia2.png';
+import n5 from '../public/carrossel/noticia1.png';
+
 export function App() {
   return (
     <>

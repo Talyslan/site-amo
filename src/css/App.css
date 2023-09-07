@@ -17,7 +17,7 @@
 
 .hero img {
   width: 80%;
-  max-width: 450px; 
+  max-width: 300px; 
   min-width: 220px;
 }
 
@@ -51,7 +51,7 @@
 
 .treinamentos .preparese .cima-treinamentos img {
   width: 70%;
-  max-width: 350px; 
+  max-width: 300px; 
   filter: drop-shadow(4px 6px 6px #eaa1aa);
 }
 
@@ -84,6 +84,7 @@
 
 .treinamentos .primeiropasso h2 {
   font-size: 2em;
+  text-align: center;
 }
 
 .treinamentos .primeiropasso p {
@@ -96,6 +97,7 @@
 
 .treinamentos .primeiropasso > img {
   width: 40%;
+  max-width: 200px;
   min-width: 120px;
 }
 
@@ -140,6 +142,9 @@
   }
 }
 
+/* Noticias */
+
+/* Media query */
 @media only screen and (max-width: 900px) {
   .hero {
     flex-direction: column;
