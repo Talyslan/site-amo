@@ -1,0 +1,41 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3em;
+    padding: 60px 0;
+}
+
+.contato, .parceiros {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+}
+
+.apoio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.apoio .one {
+    grid-row: 1 / 3;
+    width: 100px;
+}
+
+.apoio img {
+    width: 50px;
+}
+
+.contato .midias {
+    filter: invert(1);
+}
+
+@media only screen and (max-width: 500px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+  }
