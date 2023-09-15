@@ -53,6 +53,20 @@
   width: 70%;
   max-width: 300px; 
   filter: drop-shadow(4px 6px 6px #eaa1aa);
+  transform: translateX(0px);
+  animation: float 4s ease infinite;
+}
+
+@keyframes float {
+  0% {
+      transform: translateY(0px)
+  }
+  50% {
+    transform: translateY(-40px)
+  }
+  100% {
+    transform: translateY(0px)
+  }
 }
 
 .treinamentos .preparese .cima-treinamentos h2 {
