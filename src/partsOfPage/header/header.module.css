@@ -109,6 +109,7 @@
         position: relative;
         display: flex;
         flex-direction: column;
+        gap: 0;
     }
 
     a {
@@ -150,6 +151,7 @@
 
     .loginRegister {
         flex-direction: column;
+        gap: 0;
     }
 
     .loginRegister > a:first-child,
