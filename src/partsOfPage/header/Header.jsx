@@ -5,16 +5,22 @@ import HeaderStyles from './header.module.css';
 //import { Login } from '../../pages/login/Login.jsx'
 
 export function Header() {
+    const openNav = () => document.getElementById("nav").style.width = "70%";
+    const closeNav = () => document.getElementById("nav").style.width = "0%";
+
     return (
         <header className={HeaderStyles.header}>
-            <nav className={HeaderStyles.nav}>
+            {/* Imagem da logo */}
+            <a href="#">
+                <img src={logoAmo} alt="Logo da AMO"
+                    className={HeaderStyles.img}
+                />
+            </a>
+            <nav className={HeaderStyles.nav} id="nav">
+                <a href="#" className={HeaderStyles.closebtn} onClick={closeNav}>&times;</a>
+
                 <div className={HeaderStyles.logoBar}>
-                    {/* Imagem da logo */}
-                    <a href="#">
-                        <img src={logoAmo} alt="Logo da AMO"
-                            className={HeaderStyles.img}
-                        />
-                    </a>
+
                     {/* Links do próprio site */}
                     <ul className={HeaderStyles.ul}>
                         <li><a href="#treinamentos">Treinamento</a></li>
@@ -32,6 +38,8 @@ export function Header() {
                     <a href="#">Cadastrar</a>
                 </div>
             </nav>
+
+            <span className={HeaderStyles.openNav} onClick={openNav}>&#9776;</span>
         </header>
     );
 }
