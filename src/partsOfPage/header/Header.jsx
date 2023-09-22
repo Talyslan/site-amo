@@ -5,7 +5,7 @@ import HeaderStyles from './header.module.css';
 //import { Login } from '../../pages/login/Login.jsx'
 
 export function Header() {
-    const openNav = () => document.getElementById("nav").style.width = "70%";
+    const openNav = () => document.getElementById("nav").style.width = "50%";
     const closeNav = () => document.getElementById("nav").style.width = "0%";
 
     return (
