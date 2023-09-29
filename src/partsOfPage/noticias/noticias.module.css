@@ -38,4 +38,10 @@
     width: 450px;
     height: 300px;
     object-fit: cover;
+    transition: 0.3s ease;
+}
+
+.carrosselImg:hover {
+    opacity: .6;
+    cursor: pointer;
 }

@@ -31,6 +31,19 @@
 
 .contato .midias {
     filter: invert(1);
+    display: flex;
+    gap: 18px;
+}
+
+.contato .midias a img {
+    padding: 4px;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.contato .midias a img:hover {
+    background: #74707067;
+    transform: scale(1.1);
 }
 
 @media only screen and (max-width: 500px) {
