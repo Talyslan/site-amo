@@ -3,6 +3,7 @@ import { Header } from './partsOfPage/header/Header.jsx';
 import { Footer } from './partsOfPage/footer/Footer.jsx';
 import { Box } from './components/box.jsx';
 import { Noticias } from './partsOfPage/noticias/Noticias.jsx';
+
 import './css/App.css';
 
 // Images

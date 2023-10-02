@@ -1,8 +1,7 @@
 import logoAmo from '../../../public/logoNav.png';
 import IconLogin from '../../../public/login.png';
 import HeaderStyles from './header.module.css';
-
-//import { Login } from '../../pages/login/Login.jsx'
+import { Login } from '../../pages/login/Login.jsx';
 
 export function Header() {
     const openNav = () => document.getElementById("nav").style.width = "50%";
