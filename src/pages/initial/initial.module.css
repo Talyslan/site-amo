@@ -1,0 +1,227 @@
+/* PRIMEIRA SECTION */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 150px 150px;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero h1 span {
+    color: #EFE838;
+}
+
+.hero img {
+    width: 80%;
+    max-width: 300px;
+    min-width: 220px;
+}
+
+.hero h2 {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+/* SEGUNDA SECTION */
+.treinamentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    color: var(--black);
+    padding: 150px 150px;
+}
+
+.treinamentos .preparese {
+    display: grid;
+    place-items: center;
+    row-gap: 5rem;
+}
+
+.treinamentos .preparese .cimaTreinamentos {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+
+.treinamentos .preparese .cimaTreinamentos img {
+    width: 70%;
+    max-width: 300px;
+    filter: drop-shadow(4px 6px 6px #eaa1aa);
+    transform: translateX(0px);
+    animation: float 4s ease infinite;
+    animation-direction: alternate;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-40px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.treinamentos .preparese .cimaTreinamentos h2 {
+    font-size: 3em;
+    text-align: right;
+}
+
+.treinamentos .preparese p {
+    max-width: 1200px;
+    min-width: 300px;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+
+.treinamentos .preparese a {
+    background-color: var(--black);
+    padding: 12px 24px;
+    border-radius: 48px;
+    font-size: 1em;
+    box-shadow: 3px 3px #54575f;
+}
+
+.treinamentos .primeiropasso {
+    display: grid;
+    place-items: center;
+    row-gap: 3rem;
+    padding: 150px 0px;
+}
+
+.treinamentos .primeiropasso h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.treinamentos .primeiropasso p {
+    max-width: 1200px;
+    min-width: 300px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.treinamentos .primeiropasso>img {
+    width: 40%;
+    max-width: 200px;
+    min-width: 120px;
+}
+
+.boxOrg {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 44px;
+}
+
+/* Noticias */
+.swiper {
+    max-width: 900px;
+}
+
+/* O PROJETO */
+.projeto {
+    background-color: var(--white);
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projeto h2 {
+    background: rgb(116, 122, 240);
+    color: var(--white);
+    font-size: 3rem;
+    margin-bottom: 20px;
+    line-height: 3.5rem;
+    padding: 12px 24px;
+    border-radius: 48px;
+    margin: 90px 0;
+}
+
+.projeto .content {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+    gap: 5%;
+}
+
+.projeto .content p {
+    max-width: 400px;
+    margin-top: 25px;
+}
+
+.projeto .content img {
+    width: 80%;
+    max-width: 300px;
+    min-width: 220px;
+}
+
+/* Media query */
+@media only screen and (max-width: 1150px) {
+    .hero h1 {
+        font-size: 1.8em;
+    }
+
+    .hero {
+        padding: 60px 0px;
+    }
+
+    .treinamentos .preparese .cimaTreinamentos {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .treinamentos h2 {
+        font-size: 2em;
+    }
+
+    .treinamentos .preparese .cimaTreinamentos h2 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .treinamentos .preparese p {
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .boxOrg {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projeto .content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .swiper {
+        width: 50%;
+        max-width: 450px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .boxOrg {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

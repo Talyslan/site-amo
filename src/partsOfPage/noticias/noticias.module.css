@@ -32,6 +32,7 @@
     margin-top: 4em;
     margin-bottom: 10em;
     font-size: 1em;
+    width: 200px;
 }
 
 .carrosselImg {
@@ -44,4 +45,8 @@
 .carrosselImg:hover {
     opacity: .6;
     cursor: pointer;
+}
+
+.swiper {
+    max-width: 76%;
 }
