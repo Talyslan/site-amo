@@ -8,6 +8,14 @@
     z-index: 2;
 }
 
+.header > a img {
+    transition: 0.3s ease;
+}
+
+.header > a img:hover {
+    transform: scale(.98);
+}
+
 .nav {
     display: flex;
     align-items: center;

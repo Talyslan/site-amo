@@ -36,8 +36,9 @@
 }
 
 .carrosselImg {
-    width: 450px;
-    height: 300px;
+    width: 100%;
+    max-width: 450px;
+    height: 350px;
     object-fit: cover;
     transition: 0.3s ease;
 }

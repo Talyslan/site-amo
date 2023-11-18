@@ -47,15 +47,11 @@ a {
   text-decoration: none;
   color: var(--white);
   border-radius: 3px;
-  font-size: 1.5em;
+  font-size: 1rem;
   transition: 0.3s;
   display: block;
-  padding: 8px;
   text-align: center;
 }
-/* a:hover {
-  color: ;
-} */
 
 ul {
   list-style-type: none;

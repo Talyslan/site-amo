@@ -54,7 +54,7 @@ export function Noticias() {
         <p>Descubra informações sobre o mundo da Informática.</p>
         </div>
 
-        <Swiper slidesPerView={slidePerView} pagination={{clickable: true}} navigation>
+        <Swiper className={NoticiaStyles.swiper} slidesPerView={slidePerView} pagination={{clickable: true}} navigation>
         {
             imagens.map( (item) => (
             <SwiperSlide key={item.id}>
