@@ -57,7 +57,7 @@ export function Initial() {
             <p>
               Nosso programa de treinamento GRATUITO, conduzido pela rede federal, busca preparar  os estudantes para a Olimpíada Brasileira de Informática, não apenas dentro da instituição federal, mas também em colégios do estado!
             </p>
-            <a href="#">COMECE JÁ!</a>
+            <a href="/">COMECE JÁ!</a>
           </div>
 
           <div className={InitialStyles.primeiropasso}>

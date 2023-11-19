@@ -88,7 +88,7 @@
 .loginRegister > a:hover:last-child {
     color: rgb(238, 238, 238);
     border: 2px solid #ac2c2760;
-    background: #ac2c27;
+    background: var(--red-light);
 }
 
 @media only screen and (max-width: 900px) {
@@ -105,7 +105,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 12px;
+        gap: 4em;
     }
 
     .header {
@@ -117,10 +117,14 @@
         position: relative;
         display: flex;
         flex-direction: column;
-        gap: 0;
+        gap: 2em;
     }
 
-    .header a:hover {
+    .nav a {
+        padding: .5em;
+    }
+
+    .nav a:hover {
         background-color: #81818164;
     }
 
@@ -149,21 +153,19 @@
 
     .loginRegister {
         flex-direction: column;
-        gap: 0;
+        gap: 1em;
     }
 
     .loginRegister > a:first-child,
     .loginRegister > a:last-child {
         font-weight: normal;
     }
-
-    .loginRegister > a:first-child img {
-        display: none;
-    }
     
     .loginRegister > a:hover:first-child {
         color: var(--white);
-        transform: translateY(0px);
+        transform: translateX(-5px);
+        background: #6471fc;
+        box-shadow: 5px 5px 0 var(--blue-dark);
     }
 
     .loginRegister > a:last-child {
@@ -173,6 +175,8 @@
     
     .loginRegister > a:hover:last-child {
         border: none;
-        background: #81818164;
+        color: var(--white);
+        transform: translateX(-5px);
+        box-shadow: 5px 5px 0 var(--red-dark);
     }
 } 

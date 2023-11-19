@@ -20,11 +20,11 @@ import n5 from '../../../public/carrossel/noticia1.jpg';
 
 export function Noticias() {
     const imagens = [
-        { id: 1, image: n1, url: '#' },
-        { id: 2, image: n2, url: '#' },
-        { id: 3, image: n3, url: '#' },
-        { id: 4, image: n4, url: '#' },
-        { id: 5, image: n5, url: '#' }
+        { id: 1, image: n1, url: '/' },
+        { id: 2, image: n2, url: '/' },
+        { id: 3, image: n3, url: '/' },
+        { id: 4, image: n4, url: '/' },
+        { id: 5, image: n5, url: '/' }
       ];
       
     const [slidePerView, setSlidesPerView] = useState(2);

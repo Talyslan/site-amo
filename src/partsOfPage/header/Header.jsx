@@ -1,7 +1,6 @@
 import logoAmo from '../../../public/logoNav.png';
 import IconLogin from '../../../public/login.png';
 import HeaderStyles from './header.module.css';
-import { Login } from '../../pages/login/Login.jsx';
 
 export function Header() {
     const openNav = () => document.getElementById("nav").style.width = "50%";
@@ -10,13 +9,13 @@ export function Header() {
     return (
         <header className={HeaderStyles.header}>
             {/* Imagem da logo */}
-            <a href="#">
+            <a href="/">
                 <img src={logoAmo} alt="Logo da AMO"
                     className={HeaderStyles.img}
                 />
             </a>
             <nav className={HeaderStyles.nav} id="nav">
-                <a href="#" className={HeaderStyles.closebtn} onClick={closeNav}>&times;</a>
+                <a className={HeaderStyles.closebtn} onClick={closeNav}>&times;</a>
 
                 <div className={HeaderStyles.logoBar}>
 
@@ -30,11 +29,11 @@ export function Header() {
                 </div>
                 {/* Links para a página de Login e Registro */}
                 <div className={HeaderStyles.loginRegister}>
-                    <a href="#">
+                    <a href="/login">
                         <img src={IconLogin} alt="Icone de Login" />
                         Entrar
                     </a>
-                    <a href="#">Cadastrar</a>
+                    <a href="/">Cadastrar</a>
                 </div>
             </nav>
 
