@@ -6,7 +6,7 @@ import './css/global.css';
 import { Initial } from './pages/initial/Initial.jsx';
 import { Register } from './pages/register/Register.jsx';
 import { Login } from './pages/login/Login.jsx';
-import { VideoArea } from './pages/videoArea/videoArea.jsx';
+import { VideoArea } from './pages/videoArea/VideoArea.jsx';
 
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
