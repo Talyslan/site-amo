@@ -3,8 +3,14 @@ import IconLogin from '../../../public/login.png';
 import HeaderStyles from './header.module.css';
 
 export function Header() {
-    const openNav = () => document.getElementById("nav").style.width = "50%";
-    const closeNav = () => document.getElementById("nav").style.width = "0%";
+    const openNav = () => {
+        // document.getElementById("nav").style.width = "100%";
+        document.getElementById("nav").style.height = "100%";
+    }
+    const closeNav = () => {
+        // document.getElementById("nav").style.width = "0%";
+        document.getElementById("nav").style.height = "0%";
+    }
 
     return (
         <header className={HeaderStyles.header}>
@@ -15,7 +21,7 @@ export function Header() {
                 />
             </a>
             <nav className={HeaderStyles.nav} id="nav">
-                <a className={HeaderStyles.closebtn} onClick={closeNav}>&times;</a>
+                <span className={HeaderStyles.closebtn} onClick={closeNav}>&times;</span>
 
                 <div className={HeaderStyles.logoBar}>
 
@@ -33,7 +39,7 @@ export function Header() {
                         <img src={IconLogin} alt="Icone de Login" />
                         Entrar
                     </a>
-                    <a href="/">Cadastrar</a>
+                    <a href="/register">Cadastrar</a>
                 </div>
             </nav>
 

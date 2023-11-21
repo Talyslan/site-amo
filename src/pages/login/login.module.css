@@ -1,0 +1,61 @@
+.back .effects,
+.back .shapes {
+    position: absolute;
+    display: none;
+}
+
+.back .shapes img:nth-child(n) {
+    width: 50px;
+}
+
+.back .shapes img:nth-child(2) {
+    width: 50px;
+}
+
+.back .shapes img:nth-child(3) {
+    width: 50px;
+}
+
+.back .effects img:nth-child(1) {
+    width: 30px;
+}
+
+.back .effects img:nth-child(2) {
+    width: 30px;
+}
+
+.back .effects img:nth-child(3) {
+    width: 30px;
+}
+
+.back .effects img:nth-child(4) {
+    width: 30px;
+}
+
+.main {
+    display: flex;
+}
+
+.main > img {
+    width: 20%;
+}
+
+.main form {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.main > div,
+.main > div label {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .main > div label {
+    background: var(--white);
+} */
+
+.main > div label img {
+    width: 1.5em;
+}
