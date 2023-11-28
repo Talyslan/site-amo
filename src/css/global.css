@@ -12,6 +12,7 @@
   --blue-dark: #434caf;
   --red-light: #ac2c27;
   --red-dark: #6f1d1a;
+  --inputArea: var(--blue-dark);
 }
 
 * {
@@ -81,12 +82,13 @@ ul {
   background: #acacac; 
 }
 
-/* button {
+button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
+  color: var(--white);
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: var(--inputArea);
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -96,7 +98,22 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-} */
+} 
+
+input {
+  border: none;
+}
+
+input:focus,
+input:focus-visible,
+input:active {
+  outline: none;
+} 
+
+label:active {
+  outline: 2px #242F55;
+}
+
 /* 
 @media (prefers-color-scheme: light) {
   :root {

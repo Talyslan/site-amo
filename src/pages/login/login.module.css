@@ -34,6 +34,7 @@
 
 .main {
     display: flex;
+    justify-content: space-around;
 }
 
 .main > img {
@@ -46,8 +47,8 @@
     gap: 2em;
 }
 
-.main > div,
-.main > div label {
+.main > .loginArea form,
+.main > .loginArea form label {
     display: flex;
     flex-direction: column;
 }
@@ -58,4 +59,30 @@
 
 .main > div label img {
     width: 1.5em;
+    filter: invert();
+}
+
+.main > .loginArea form label input::placeholder {
+    color: var(--white);
+}
+
+.main > .loginArea form label input,
+.main > .loginArea form label .inputVisible {
+    background: var(--inputArea);
+    padding: 6px;
+    border-radius: 12px;
+
+}
+
+.main > .loginArea form label .inputVisible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.main form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }

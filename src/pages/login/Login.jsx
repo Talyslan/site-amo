@@ -35,13 +35,17 @@ export function Login() {
                         </label>
                         <label htmlFor="senha">
                             <span>Senha</span>
-                            <input type="password" placeholder='Escreva sua Senha' id='senha' />
-                            <img src="../../../public/login/password/invisible.png" alt="" />
+                            <div className={LoginStyles.inputVisible}>
+                                <input type="password" placeholder='Escreva sua Senha' id='senha' />
+                                <img src="../../../public/login/password/invisible.png" alt="" />
+                            </div>
                         </label>
                         <label htmlFor="repitaSenha">
                             <span>Repita a Senha</span>
-                            <input type="password" placeholder='Repita sua Senha' id='repitaSenha' />
-                            <img src="../../../public/login/password/invisible.png" alt="" />
+                            <div className={LoginStyles.inputVisible}>
+                                <input type="password" placeholder='Repita sua Senha' id='repitaSenha' />
+                                <img src="../../../public/login/password/invisible.png" alt="" />
+                            </div>
                         </label>
                     </div>
 
